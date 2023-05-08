@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap&family=Niconne&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./links/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="d-flex ms-md-5 align-items-center">
+            <h1 class="m-0">DS Store</h1>
+            <img class="logo" src="./imagens/logo.png" alt="" />
+          </div>
+
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <nav
+          class="nav collapse navbar-collapse justify-content-md-end flex-nowrap mt-1"
+          id="menu"
+        >
+          <div class="dropdown">
+            <button data-bs-toggle="dropdown" class="btn dropdown-toggle">
+              Roupas
+            </button>
+
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <a href="#">Femininas</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Masculinas</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Infantil</a>
+              </li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button data-bs-toggle="dropdown" class="btn dropdown-toggle">
+              Calçados
+            </button>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <a href="#">Casual</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Corrida</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Chuteiras</a>
+              </li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button data-bs-toggle="dropdown" class="btn dropdown-toggle">
+              Acessórios
+            </button>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <a href="#">Bolsas</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Óculos</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Relógios</a>
+              </li>
+            </ul>
+          </div>
+
+          <a class="btn" href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="corousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="./imagens/slide 1.jpg" alt="" />
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="./imagens/slide 2.jpg" alt="" />
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="./imagens/slide 3.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <section id="destaques">
+      <div class="container">
+        <div class="row mt-3">
+          <h3 class="text-center fw-bold">Destaques</h3>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3 me-2 item-destaque">
+            <h5 class="text-center fw-bold">Tênis adidas</h5>
+            <img
+              src="./imagens/ultraboost.jpg"
+              alt=""
+              class="d-block rounded mb-1"
+            />
+            <p>Vários modelos em promoção</p>
+            <button class="btn">Saiba mais</button>
+          </div>
+          <div class="col-md-3 me-2 item-destaque">
+            <h5 class="text-center fw-bold">Novidades em smartwatch</h5>
+            <img
+              src="./imagens/smartwatch.jpg"
+              alt=""
+              class="d-block rounded mb-1"
+            />
+            <p>Novos modelos disponíveis</p>
+            <button class="btn">Saiba mais</button>
+          </div>
+          <div class="col-md-3 me-2 item-destaque">
+            <h5 class="text-center fw-bold">Camisas de times</h5>
+            <img
+              src="./imagens/camisa.jpg"
+              alt=""
+              class="d-block rounded mb-1"
+            />
+            <p>Vista a camisa do seu time</p>
+            <button class="btn">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="veja-mais">
+      <div class="container">
+        <div class="row text-center">
+          <h3 class="text-center fw-bold">Veja também</h3>
+          <div class="row justify-content-center">
+            <div class="col-md-3 produtos">
+              <img src="./imagens/bolsa.jpg" alt="" />
+              <p>Bolsa feminina</p>
+              <p class="valor">
+                De <del>R$ 450,00</del> <br />
+                por <strong>R$ 280,00</strong>
+              </p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="col-md-3 produtos">
+              <img src="./imagens/blusa feminina.jpg" alt="" />
+              <p>Blusa feminina</p>
+              <p class="valor">
+                De <del>R$ 89,00</del> <br />
+                por <strong>R$ 64,99</strong>
+              </p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="col-md-3 produtos">
+              <img src="./imagens/tenis nike.jpg" alt="" />
+              <p>Tênis Nike</p>
+              <p class="valor">
+                De <del>R$ 550,00</del> <br />
+                por <strong>R$ 499,00</strong>
+              </p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="col-md-3 produtos">
+              <img src="./imagens/chuteira.jpg" alt="" />
+              <p>Chuteira puma</p>
+              <p class="valor">
+                De <del>R$ 470,00</del> <br />
+                por <strong>R$ 429,00</strong>
+              </p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="col-md-3 produtos">
+              <img src="./imagens/melissa.jpg" alt="" />
+              <p>Rasteirinha Melissa</p>
+              <p class="valor">
+                De <del>R$ 170,00</del> <br />
+                por <strong>R$ 145,00</strong>
+              </p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="col-md-3 produtos">
+              <img src="./imagens/rayban.jpg" alt="" />
+              <p>Óculos Ray Ban</p>
+              <p class="valor">
+                De <del>R$ 270,00</del> <br />
+                por <strong>R$ 249,00</strong>
+              </p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="col-md-3 produtos">
+              <img src="./imagens/under-armour.jpg" alt="" />
+              <p>Tênis Under Armour</p>
+              <p class="valor">
+                De <del>R$ 370,00</del> <br />
+                por <strong>R$ 345,00</strong>
+              </p>
+              <button class="btn">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer">
+        <div class="row">
+          <div class="col-sm text-center">
+            <h4 class="mt-2">Entre em contato</h4>
+            <div class="container contact">
+              <p class="mb-1">Whatsapp: (61) 99999-9999</p>
+              <a href="#">
+                <img class="img-contato" src="./icones/whatsapp.png" alt="" />
+              </a>
+            </div>
+            <div class="container contact" id="contato">
+              <p class="mb-1">E-mail: e-mail@mail.com</p>
+              <a href="#">
+                <img class="img-contato" src="./icones/email.png" alt="" />
+              </a>
+            </div>
+            <div class="container contact">
+              <p class="mb-1">Atendimento: 0800 0000 0000</p>
+              <a href="#">
+                <img class="img-contato" src="./icones/tel.png" alt="" />
+              </a>
+            </div>
+            <form>
+              <strong>Envie uma mensagem</strong>
+              <input class="w-100" type="text" id="name" placeholder="Nome" />
+              <input
+                class="w-100"
+                type="email"
+                id="email"
+                placeholder="E-mail"
+              />
+              <input
+                class="w-100"
+                type="number"
+                id="tel"
+                placeholder="Telefone"
+              />
+              <textarea
+                class="w-100"
+                name=""
+                id="msg"
+                placeholder="Mensagem"
+              ></textarea>
+              <button class="btn">Enviar</button>
+            </form>
+          </div>
+          <div class="col-sm text-center">
+            <h4 class="mt-2">Onde estamos</h4>
+            <p class="mb-1">Quadra 01 Conjunto 01 Lotes 01 a 05</p>
+            <p class="mb-1">Brasília - DF</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245795.98208892066!2d-48.10217306402139!3d-15.721369800591601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3d18df9ae275%3A0x738470e469754a24!2zQnJhc8OtbGlhLCBERg!5e0!3m2!1spt-BR!2sbr!4v1683036718355!5m2!1spt-BR!2sbr"
+              width="300"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col-sm text-center">
+            <h4 class="mt-2">Redes Sociais</h4>
+            <a href="#">
+              <img class="img-redes" src="./icones/instagram.png" alt="" />
+            </a>
+            <a href="#">
+              <img class="img-redes" src="./icones/youtube.png" alt="" />
+            </a>
+            <a href="#">
+              <img class="img-redes" src="./icones/facebook.png" alt="" />
+            </a>
+            <div class="container mt-4">
+              <div class="row">
+                <div class="col">
+                  <p class="mb-1">Baixe nosso aplicativo</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <a href="#">
+                    <img
+                      class="img-app"
+                      src="./icones/google-play.png"
+                      alt=""
+                    />
+                  </a>
+                  <a href="#">
+                    <img class="img-app" src="./icones/app-store.png" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center pagamento mt-3">
+          <div class="col">
+            <img class="img-pag" src="./icones/visa.png" alt="" />
+            <img class="img-pag" src="./icones/mastercard.png" alt="" />
+            <img class="img-pag" src="./icones/boleto.png" alt="" />
+            <img class="img-pag" src="./icones/pix.png" alt="" />
+          </div>
+        </div>
+        <div class="row text-center mt-2">
+          <div class="col">
+            <p>&copy; 2023 Todos os direitos reservados</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./links/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
